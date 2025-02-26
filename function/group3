@@ -1,0 +1,13 @@
+listofnumbers=[400,300,60,10,49,15,10,65]
+def multiplication():
+    m=1
+    for i in listofnumbers:
+       # print(i)
+        m=m*i
+    print(m)
+    j=m/1000
+    if j >2000:
+        print("Hurray!!!, its greater than 2000", j)
+    else:
+        print("Oh no its less than 2000", j)
+multiplication()
